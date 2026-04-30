@@ -1,5 +1,5 @@
 # config-repo/values-prod.yaml
-replicaCount: 3
+replicaCount: 4
 image:
   repository: nginx
   tag: 1.26.1 # Prod uses the latest stable
@@ -7,7 +7,7 @@ service:
   type: LoadBalancer # Prod might expose externally
   port: 80
 ingress:
-  enabled: true
+  enabled: false
   className: nginx
   hosts:
     - host: my-nginx.prod.example.com
