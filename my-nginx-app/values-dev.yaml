@@ -1,5 +1,5 @@
 # config-repo/values-dev.yaml
-replicaCount: 2
+replicaCount: 4
 image:
   repository: nginx
   tag: 1.25.3 # Dev might use a slightly older or specific version
