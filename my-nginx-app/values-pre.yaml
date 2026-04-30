@@ -1,5 +1,5 @@
 # config-repo/values-prod.yaml
-replicaCount: 3
+replicaCount: 6
 image:
   repository: nginx
   tag: 1.26.1 # Prod uses the latest stable
